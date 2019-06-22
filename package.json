@@ -1,0 +1,20 @@
+{
+  "name": "webhook-server",
+  "version": "1.0.1",
+  "description": "A webhook server that listens on specified paths and if it receives a POST on that path can trigger a bash script to run.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "webhook"
+  ],
+  "author": "Brenton O'Callaghan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "express": "^4.10.7",
+    "console-stamp": "^0.2.9"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "port": 5001,
+    "webhooks": [
+        {
+            "path": "/webhook/dev",
+            "script": "/full/path/to/executable/script.sh
+        }
+    ]
+}
