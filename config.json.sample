@@ -3,7 +3,7 @@
     "webhooks": [
         {
             "path": "/webhook/dev",
-            "script": "/full/path/to/executable/script.sh
+            "script": "/full/path/to/executable/script.sh"
         }
     ]
 }
